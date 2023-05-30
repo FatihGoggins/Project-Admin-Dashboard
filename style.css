@@ -21,7 +21,6 @@ body,
 .container {
 	display: grid;
 	grid-template-columns: 20% 80%;
-	height: 100%;
 }
 
 .sidebar {
@@ -70,7 +69,7 @@ body,
 
 .main-content {
 	display: grid;
-	grid-template-rows: 20% 80%;
+	grid-template-rows: 1fr 4fr;
 }
 
 .header {
